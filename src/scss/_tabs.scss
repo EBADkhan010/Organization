@@ -1,0 +1,71 @@
+.custom-tabs {
+  background-color: $white;
+  .nav-tabs {
+    border-bottom: 1px solid $border-color;
+    margin-bottom: 1rem;
+    .nav-item {
+      padding: 0px 5px;
+      button {
+        border-width: 1px 1px 0px 1px;
+        color: $primary;
+        font-weight: 600;
+        font-size: 16px;
+        border-color: $border-color;
+        position: relative;
+        font-family: oxygenbold;
+        &.active::before {
+          content: "";
+          border-top: 4px solid $primary;
+          position: absolute;
+          top: 1px;
+          display: block;
+          width: 100%;
+          left: 0px;
+        }
+      }
+    }
+  }
+  .tab_inner{
+    background-color: $white;
+    height: 90vh;
+    position: relative;
+    padding-bottom: 1.5rem;
+    .sidebar-height {
+      .tab_sidebar {
+        height: 100%;
+        border: 1px solid $border-color;
+        position: relative;
+        .tab-search {
+          padding: 1rem 8px;
+          background-color: #edf0f3;
+     
+        }
+      
+      
+        
+      }
+      .custom-tabs{
+        border: 1px solid $border-color;
+        margin-bottom: 0rem;
+      height: 100%;
+      position: relative;
+      .nav-tabs {
+        
+        .nav-item {
+          padding: 0px 5px 0 0;
+      }
+      }
+       
+        .tab-content{
+         
+     
+        }
+        &.innertab{
+          border: none;
+        }
+      }
+    }
+  }
+  
+
+}

@@ -1,0 +1,58 @@
+.header {
+  background-color: $darkgrey;
+  padding: 10px 0px;
+  .navbar-brand{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: $white !important;
+  }
+  .menu-wrap {
+    justify-content: flex-end;
+    .navbar-nav {
+      .nav-item {
+        padding-left: 15px;
+        padding-right: 15px;
+        a {
+          color: $white !important;
+          font-size: 16px;
+          &.name-li {
+            font-weight: bold;
+            background: $rosewhite;
+            border-radius: 100%;
+            padding: 0;
+            height: 40px;
+            width: 40px;
+            text-align: center;
+            vertical-align: middle;
+            font-size: 1.5rem;
+            padding-left: 0px;
+            color: $darkgrey !important;
+          }
+        }
+        &.second-nav-menu {
+          position: relative;
+          ::before {
+            content: "|";
+            color: $white;
+            position: absolute;
+            padding-right: 15px;
+            left: 5px;
+          }
+        }
+      }
+      .dropdown-menu {
+        background-color: $darkgrey !important;
+        li {
+          a {
+            color: $white !important;
+            font-size: 16px;
+            &:hover {
+              background-color: $white;
+              color: $darkgrey !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}

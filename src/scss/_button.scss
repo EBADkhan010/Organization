@@ -1,0 +1,25 @@
+.cutom-btn{
+  background-color: $primary !important;
+  color: $white;
+  padding: 6px 1.4rem;
+    border: 1px solid $primary ;
+    font-family: oxygen;
+    &:hover{
+      color: $primary ;
+    background-color: $white  !important;
+    }
+  &.oraginzationsearchbtn{
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    display: inline-block;
+     
+  }
+  &.advancesearchbtn{
+    color: $primary !important;
+    background-color: $white  !important;
+    &:hover{
+      background-color: $primary !important;
+  color: $white  !important;
+    }
+  }
+}

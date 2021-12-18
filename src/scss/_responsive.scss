@@ -1,0 +1,98 @@
+@media (max-width: 1024px) and (min-width: 768px) {
+  .resp-mtb {
+    margin: 1rem 0rem;
+  }
+  .resp-mb {
+    margin-bottom: 1rem !important;
+  }
+  .custom-tabs {
+    .tab_inner {
+      height: 100vh;
+      margin-top: 1rem;
+    }
+  }
+  
+  .search-area{
+    .custom-search{
+      &.oraginzationsearch{
+        width: 95%;
+      }
+    }
+    
+  }
+}
+
+
+@media (max-width: 425px) and (min-width: 320px) {
+  .menu-wrap{
+    .second-nav-menu{
+      :before{
+        display: none !important;
+      }
+    }
+  }
+  .custom-search{
+    .oraginzationsearch{
+      width: 95%;
+    }
+  }
+  .search-area{
+    
+      .advancesearchbtn{
+        width: 100%;
+        margin: 1rem 0;
+      }
+      .text-right{
+        .float-end{
+          width: 100%;
+        }
+      }
+    }
+
+  .custom-tabs {
+    .nav-tabs{
+    li{
+      display: block;
+      width: 100%;
+      button{
+        display: block;
+        width: 100%;
+        border-width: 1px 1px 1px 1px !important;
+        margin-bottom: 15px;
+        &.active{
+          background-color: $primary !important;
+          color: $white !important;
+          &::before{
+            display: none !important;
+          }
+        }
+      }
+    }
+  }
+    .tab_inner {
+      height: auto;
+      margin-top: 1rem;
+      .sidebar-height {
+        .custom-tabs{
+          margin-top: 1rem;
+          border: none;
+          #myTabContent{
+            border: 1px solid $border-color;
+          }
+        }
+        .tab_sidebar{
+          height: auto;
+          .footer{
+            position: static;
+          }
+        }
+      }
+    }
+    .footer{
+      position: static;
+    }
+  }
+  .resp-mtb {
+    margin: 1rem 0rem;
+  }
+}

@@ -1,0 +1,24 @@
+@import 'variables';
+@import 'header';
+@import 'search';
+@import 'button';
+@import 'cards';
+@import 'tabs';
+@import 'accordians';
+@import 'fontface';
+@import 'footer';
+@import 'responsive';
+
+body{
+  background-color: #f2f2f2 !important;
+}
+a{
+  text-decoration: none;
+}
+:focus{
+box-shadow: none !important;
+border: none !important;
+}
+.bg-white{
+  background-color: #fff;
+}
